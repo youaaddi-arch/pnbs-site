@@ -392,3 +392,13 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
   .float-card--tr { right: 6px; } .float-card--bl { left: 6px; }
   .float-card strong { font-size: 1.2rem; }
 }
+
+/* ---------- Logo image (en-tête + pied de page) ---------- */
+.brand { display: inline-flex; align-items: center; }
+.brand__logo { height: 46px; width: auto; display: block; }
+.site-footer .brand__logo { height: 54px; background: #fff; padding: 8px 14px; border-radius: 12px; }
+@media (max-width: 640px) { .brand__logo { height: 38px; } }
+
+/* ---------- Liens codes RNCP (vers France Compétences) ---------- */
+.rncp-link { color: inherit; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 2px; font-weight: 600; }
+.rncp-link:hover { color: var(--wine); text-decoration-color: var(--wine); }
