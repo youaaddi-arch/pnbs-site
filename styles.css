@@ -402,3 +402,17 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
 /* ---------- Liens codes RNCP (vers France Compétences) ---------- */
 .rncp-link { color: inherit; text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 2px; font-weight: 600; }
 .rncp-link:hover { color: var(--wine); text-decoration-color: var(--wine); }
+
+/* ---------- Page Mentions légales ---------- */
+.legal-table { border:1px solid var(--line); border-radius:var(--radius-sm); overflow:hidden; }
+.legal-row { display:grid; grid-template-columns:280px 1fr; gap:0; border-bottom:1px solid var(--line); }
+.legal-row:last-child { border-bottom:0; }
+.legal-row:nth-child(even) { background:var(--cream); }
+.legal-k { padding:14px 18px; font-weight:700; color:var(--ink); background:var(--cream-2); }
+.legal-v { padding:14px 18px; color:var(--ink-soft); }
+.legal-list { list-style:none; padding:0; margin:0; }
+.legal-list li { padding:12px 0 12px 26px; position:relative; border-bottom:1px solid var(--line); color:var(--ink-soft); }
+.legal-list li:last-child { border-bottom:0; }
+.legal-list li::before { content:"▸"; position:absolute; left:0; color:var(--gold-600); }
+.section h2 { color:var(--wine); }
+@media (max-width:640px){ .legal-row{ grid-template-columns:1fr; } .legal-k{ background:var(--cream-2); } }
