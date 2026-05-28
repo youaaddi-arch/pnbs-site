@@ -416,3 +416,13 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
 .legal-list li::before { content:"▸"; position:absolute; left:0; color:var(--gold-600); }
 .section h2 { color:var(--wine); }
 @media (max-width:640px){ .legal-row{ grid-template-columns:1fr; } .legal-k{ background:var(--cream-2); } }
+
+/* ---------- Bloc Qualiopi (pied de page) ---------- */
+.qualiopi-block { margin-top:18px; }
+.qualiopi-logo { background:#fff; padding:8px 12px; border-radius:10px; height:54px; width:auto; display:block; margin-bottom:12px; }
+.qualiopi-mention { font-size:.78rem; line-height:1.5; color:rgba(255,255,255,.78); margin:0 0 8px; }
+.qualiopi-mention strong { color:#fff; }
+.qualiopi-num { font-size:.78rem; color:rgba(255,255,255,.7); margin:0; }
+.qualiopi-num strong { color:var(--gold-soft); }
+.qualiopi-num a { color:var(--gold-soft); text-decoration:underline; }
+.qualiopi-num a:hover { color:#fff; }
