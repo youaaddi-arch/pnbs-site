@@ -426,3 +426,28 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
 .qualiopi-num strong { color:var(--gold-soft); }
 .qualiopi-num a { color:var(--gold-soft); text-decoration:underline; }
 .qualiopi-num a:hover { color:#fff; }
+
+/* ---------- Blog : grille + cartes ---------- */
+.blog-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+.post-card { display:flex; flex-direction:column; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow-sm); transition:transform .18s ease, box-shadow .18s ease; color:var(--ink); }
+.post-card:hover { transform:translateY(-4px); box-shadow:var(--shadow); color:var(--ink); }
+.post-card__media { position:relative; aspect-ratio:16/10; overflow:hidden; }
+.post-card__media img { width:100%; height:100%; object-fit:cover; }
+.post-tag { position:absolute; top:12px; left:12px; background:var(--wine); color:#fff; font-size:.72rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:5px 12px; border-radius:999px; }
+.post-card__body { padding:22px 24px; display:flex; flex-direction:column; flex:1; }
+.post-date { font-size:.8rem; color:var(--muted); margin:0 0 6px; }
+.post-card__body h3 { margin:0 0 10px; }
+.post-card__body p { font-size:.95rem; margin:0 0 16px; }
+.post-more { margin-top:auto; display:inline-flex; align-items:center; gap:.4em; font-weight:700; font-size:.82rem; letter-spacing:.05em; text-transform:uppercase; color:var(--wine); }
+
+/* ---------- Article ---------- */
+.article { max-width:760px; margin:0 auto; }
+.article-meta { color:var(--muted); font-size:.9rem; border-bottom:1px solid var(--line); padding-bottom:18px; margin-bottom:24px; }
+.article h2 { color:var(--wine); margin-top:38px; font-size:1.6rem; }
+.article p, .article li { color:var(--ink-soft); }
+.article ul { padding-left:22px; }
+.article li { margin-bottom:8px; }
+.article-cta { margin-top:42px; padding:30px; background:var(--cream); border:1px solid var(--line); border-radius:var(--radius); }
+.article-cta h3 { color:var(--wine); margin-top:0; }
+@media (max-width:920px){ .blog-grid{ grid-template-columns:1fr 1fr; } }
+@media (max-width:640px){ .blog-grid{ grid-template-columns:1fr; } }
