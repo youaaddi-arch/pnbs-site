@@ -18,8 +18,8 @@
     "img": "why.jpg",
     "desc": "Comment rédiger une lettre de motivation efficace pour une alternance.",
     "body": "<p>La lettre de motivation reste un incontournable pour candidater en alternance. Voici comment la structurer.</p><h2>Vous, l'entreprise, nous</h2><p>Parlez d'abord de l'entreprise (pourquoi elle), puis de vous (vos atouts), puis de la collaboration (ce que vous apporterez).</p><h2>Soyez concret</h2><p>Appuyez chaque qualité d'un exemple : un résultat, une expérience, un projet.</p><h2>Mettez en avant l'alternance</h2><p>Rappelez que vous serez opérationnel rapidement et que votre formation est financée.</p><h2>Restez court</h2><p>Une demi-page suffit. Relisez-vous pour éliminer les fautes.</p>",
-    "published": false,
-    "date": ""
+    "published": true,
+    "date": "15 juin 2026"
   },
   {
     "slug": "manager-equipe-commerciale",
